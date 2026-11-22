@@ -38,19 +38,14 @@
 Datum: 08.12.2026
 Titel: Imkertreff
 Art: Entfällt
-Text: Im Dezember findet kein Imkertreff statt.
-
-Datum: 12.01.2027
-Titel: Imkertreff
-Art: Entfällt
-Text: Im Januar findet kein Imkertreff statt – stattdessen Grünkohlessen am 23. Januar.
+Text: Im Dezember findet kein Imkertreff statt – als Ersatz gibt es am 23. Januar ein Grünkohlessen.
 
 Datum: 23.01.2027
 Titel: Grünkohlessen
 Zeit: ab 18:00 Uhr
 Ort: Landgasthaus Brinkmann
 Art: Verein
-Text: Gemeinsames Grünkohlessen des Vereins.
+Text: Gemeinsames Grünkohlessen des Vereins – als Ersatz für den Imkertreff im Dezember.
 
 Datum: 09.02.2027
 Titel: Jahreshauptversammlung
