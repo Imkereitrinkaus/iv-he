@@ -46,8 +46,13 @@ Name: Björn Trinkaus
 E-Mail:
 Telefon:
 
-Amt: Schriftführerin
+Amt: 1. Schriftführerin
 Name: Catharina Beckmann
+E-Mail:
+Telefon:
+
+Amt: 2. Schriftführer
+Name: Daniel Menne
 E-Mail:
 Telefon:
 
