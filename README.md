@@ -17,6 +17,7 @@ Ort: Bienenstand Kirchende
 - Pflicht sind nur **Datum** und **Titel** (ohne Zeit: 19:00 Uhr, ohne Ort: Sportlertreff).
 - Der **monatliche Imkertreff** (2. Dienstag, 19 Uhr) erscheint automatisch.
   Nur eintragen, wenn er ein Thema hat oder ausfällt (`Art: Entfällt`).
+- Mögliche Arten: Treff, Vortrag, Praxis, Neuimker, Verein, Öffentlich, Entfällt.
 - Vergangene Termine verschwinden von selbst.
 
 Auf GitHub: Datei öffnen → Stift-Symbol → ändern → **Commit changes**.

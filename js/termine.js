@@ -20,6 +20,7 @@
     vortrag:     { label: 'Vortrag',    badge: 'termin-badge--vortrag' },
     praxis:      { label: 'Praxis',     badge: 'termin-badge--praxis' },
     neuimker:    { label: 'Neuimker',   badge: 'termin-badge--vortrag' },
+    verein:      { label: 'Verein',     badge: 'termin-badge--regulaer' },
     oeffentlich: { label: 'Öffentlich', badge: 'termin-badge--oeffentlich' },
     entfaellt:   { label: 'Entfällt',   badge: 'termin-badge--entfaellt' }
   };

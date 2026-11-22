@@ -22,6 +22,7 @@
     vortrag: 'vortrag', fachvortrag: 'vortrag',
     praxis: 'praxis', saison: 'praxis',
     neuimker: 'neuimker', einsteiger: 'neuimker',
+    verein: 'verein', vereinsleben: 'verein', mitglieder: 'verein', feier: 'verein',
     'öffentlich': 'oeffentlich', oeffentlich: 'oeffentlich', aktion: 'oeffentlich',
     'entfällt': 'entfaellt', entfaellt: 'entfaellt', 'fällt aus': 'entfaellt', ausfall: 'entfaellt'
   };
