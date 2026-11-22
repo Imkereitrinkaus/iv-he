@@ -12,7 +12,7 @@
  * EINRICHTEN: Vereins-Adresse hier eintragen, z. B.
  *   name: 'vorstand', domain: 'imkerverein-herdecke.de'
  */
-const KONTAKT_ADRESSE = { name: '', domain: '' };
+const KONTAKT_ADRESSE = { name: 'vorstand', domain: 'iv-he.de' };
 
 (function () {
   'use strict';

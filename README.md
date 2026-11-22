@@ -43,7 +43,7 @@ Kontaktdaten nur mit Einverständnis der Person eintragen.
 
 ## Noch offen
 
-- [ ] Vereins-E-Mail-Adresse in `js/form.js` eintragen (`KONTAKT_ADRESSE`)
+- [x] Vereins-E-Mail-Adresse eingetragen (vorstand@iv-he.de, in `js/form.js` → `KONTAKT_ADRESSE`)
 - [ ] Vorstand in `data/vorstand.txt` eintragen
 - [ ] Platzhalter in Impressum und Datenschutz ausfüllen (Vorstandsnamen dort direkt eintragen)
 - [ ] `mitgliedsantrag.pdf` hinzufügen

@@ -13,7 +13,9 @@
 #
 #  Amt:      Bezeichnung des Postens                             (Pflicht)
 #  Name:     Vor- und Nachname
-#  E-Mail:   z. B. vorstand@iv-he.de                             (optional)
+#  E-Mail:   nur für eine persönliche Vereinsadresse            (optional)
+#            Die gemeinsame Adresse vorstand@iv-he.de steht automatisch
+#            unter den Karten und muss hier nicht eingetragen werden.
 #  Telefon:  z. B. 02330 123456                                  (optional)
 #
 #  DATENSCHUTZ: E-Mail-Adressen und Telefonnummern nur mit Einverständnis
