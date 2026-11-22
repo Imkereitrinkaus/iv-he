@@ -22,12 +22,19 @@ Ort: Bienenstand Kirchende
 
 Auf GitHub: Datei öffnen → Stift-Symbol → ändern → **Commit changes**.
 
+## Vorstand pflegen
+
+Die Vorstandsmitglieder stehen in **[`data/vorstand.txt`](data/vorstand.txt)** und erscheinen auf „Über uns“.
+Ein Amt = ein Block mit `Amt:`, `Name:` und optional `E-Mail:` und `Telefon:`.
+Die Datei ist für Suchmaschinen gesperrt (`robots.txt`, `.htaccess`).
+Kontaktdaten nur mit Einverständnis der Person eintragen.
+
 ## Seiten
 
 | Datei | Inhalt |
 |---|---|
 | `index.html` | Startseite mit den nächsten Terminen |
-| `ueber-uns.html` | Verein, Chronik, Verbände |
+| `ueber-uns.html` | Verein, Chronik, Verbände, Vorstand |
 | `aktuelles.html` | Aktuelle Hinweise (z. B. Asiatische Hornisse, Meldeadresse) |
 | `termine.html` | Imkertreff und alle Termine |
 | `mitglied-werden.html` | Vorteile, Ablauf, Mitgliedsantrag |
@@ -37,7 +44,8 @@ Auf GitHub: Datei öffnen → Stift-Symbol → ändern → **Commit changes**.
 ## Noch offen
 
 - [ ] Vereins-E-Mail-Adresse in `js/form.js` eintragen (`KONTAKT_ADRESSE`)
-- [ ] Platzhalter in Impressum und Datenschutz ausfüllen
+- [ ] Vorstand in `data/vorstand.txt` eintragen
+- [ ] Platzhalter in Impressum und Datenschutz ausfüllen (Vorstandsnamen dort direkt eintragen)
 - [ ] `mitgliedsantrag.pdf` hinzufügen
 - [ ] Titelfoto als `images/hero-bienenstand.jpg` hinzufügen (optional)
 - [ ] Vor dem Start: Vorschau-Sperre für Suchmaschinen entfernen

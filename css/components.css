@@ -1769,3 +1769,57 @@
 .vergleich tr:last-child td {
   border-bottom: none;
 }
+
+/* ================================================================
+   VORSTAND
+   ================================================================ */
+
+.vorstand-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-5);
+}
+
+.vorstand-karte {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-6);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.vorstand-karte__amt {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-green);
+}
+
+.vorstand-karte__name {
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: var(--space-2);
+}
+
+.vorstand-karte__name--leer {
+  font-weight: 500;
+  font-style: italic;
+  color: var(--color-text-light);
+}
+
+.vorstand-karte__kontakt {
+  font-size: var(--fs-sm);
+  word-break: break-word;
+}
+
+.vorstand-hinweis {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--color-text-muted);
+}

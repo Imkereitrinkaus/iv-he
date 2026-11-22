@@ -64,6 +64,13 @@ ErrorDocument 404 /404.html
   Header always set Strict-Transport-Security "max-age=31536000"
 </IfModule>
 
+# ----- Vorstandsdaten nicht in Suchmaschinen -------------------
+<IfModule mod_headers.c>
+  <Files "vorstand.txt">
+    Header always set X-Robots-Tag "noindex, nofollow, noarchive"
+  </Files>
+</IfModule>
+
 # ----- 3. Cache --------------------------------------------------
 <IfModule mod_expires.c>
   ExpiresActive On

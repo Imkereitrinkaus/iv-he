@@ -1,0 +1,3 @@
+# Kontaktdaten des Vorstands nicht in Suchmaschinen aufnehmen
+User-agent: *
+Disallow: /data/vorstand.txt

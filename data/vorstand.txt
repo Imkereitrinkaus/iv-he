@@ -1,0 +1,55 @@
+# =====================================================================
+#  VORSTAND – Imkerverein Herdecke-Ende e.V.
+# =====================================================================
+#
+#  Wird auf der Seite „Über uns“ angezeigt – in der Reihenfolge dieser Datei.
+#  Diese Datei ist für Suchmaschinen gesperrt (robots.txt / .htaccess).
+#
+#  So pflegen Sie die Angaben:
+#   - Ein Amt = ein Block. Zwischen zwei Blöcken eine Leerzeile lassen.
+#   - Neues Amt: Block kopieren und anpassen. Amt entfällt: Block löschen.
+#   - Leere Felder werden einfach nicht angezeigt.
+#     Ohne Namen erscheint „wird ergänzt“.
+#
+#  Amt:      Bezeichnung des Postens                             (Pflicht)
+#  Name:     Vor- und Nachname
+#  E-Mail:   z. B. vorstand@iv-he.de                             (optional)
+#  Telefon:  z. B. 02330 123456                                  (optional)
+#
+#  DATENSCHUTZ: E-Mail-Adressen und Telefonnummern nur mit Einverständnis
+#  der jeweiligen Person eintragen. Besser: Vereinsadressen wie
+#  kasse@iv-he.de statt privater Adressen.
+#
+#  Zeilen mit # am Anfang sind Notizen und erscheinen nicht auf der Website.
+# =====================================================================
+
+
+Amt: 1. Vorsitzender
+Name:
+E-Mail:
+Telefon:
+
+Amt: 2. Vorsitzende
+Name:
+E-Mail:
+Telefon:
+
+Amt: 1. Kassiererin
+Name:
+E-Mail:
+Telefon:
+
+Amt: 2. Kassierer
+Name:
+E-Mail:
+Telefon:
+
+Amt: Öffentlichkeitsarbeit
+Name:
+E-Mail:
+Telefon:
+
+Amt: Obmann für Honig
+Name:
+E-Mail:
+Telefon:
