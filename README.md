@@ -45,7 +45,7 @@ Kontaktdaten nur mit Einverständnis der Person eintragen.
 
 - [x] Vereins-E-Mail-Adresse eingetragen (vorstand@iv-he.de, in `js/form.js` → `KONTAKT_ADRESSE`)
 - [ ] Vorstand in `data/vorstand.txt` eintragen
-- [ ] Platzhalter in Impressum und Datenschutz ausfüllen (Vorstandsnamen dort direkt eintragen)
+- [ ] Restliche Platzhalter in Impressum und Datenschutz prüfen (Vertretungsberechtigte laut Satzung, AV-Vertrag, Mitgliederdaten, Datenschutzbeauftragter)
 - [ ] `mitgliedsantrag.pdf` hinzufügen
 - [ ] Titelfoto als `images/hero-bienenstand.jpg` hinzufügen (optional)
 - [ ] Vor dem Start: Vorschau-Sperre für Suchmaschinen entfernen
