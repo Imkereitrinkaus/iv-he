@@ -47,8 +47,8 @@ Text: Im Januar findet kein Imkertreff statt – stattdessen Grünkohlessen am 2
 
 Datum: 23.01.2027
 Titel: Grünkohlessen
-Zeit: Uhrzeit folgt
-Ort: Ort folgt
+Zeit: ab 18:00 Uhr
+Ort: Landgasthaus Brinkmann
 Art: Verein
 Text: Gemeinsames Grünkohlessen des Vereins.
 
