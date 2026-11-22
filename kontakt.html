@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt – Imkerverein Herdecke-Ende e.V.</title>
+  <meta name="description" content="Kontakt zum Imkerverein Herdecke-Ende e.V. – Schreiben Sie uns oder kommen Sie zum nächsten Imkertreff. Kirchender Dorfweg 12, 58313 Herdecke.">
+  <!-- VORSCHAU-SPERRE: Diesen Hinweis und die nächste Zeile vor dem Start der echten Website löschen -->
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Zum Inhalt springen</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="site-logo" aria-label="Imkerverein Herdecke-Ende e.V. – Zur Startseite">
+        <span class="site-logo__icon" aria-hidden="true">🐝</span>
+        <span class="site-logo__text">
+          <span class="site-logo__name">Imkerverein Herdecke-Ende</span>
+          <span class="site-logo__sub">e.V. · Gegründet 1926</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <ul class="nav-list" role="list">
+          <li class="nav-list__item"><a href="index.html" class="nav-list__link">Startseite</a></li>
+          <li class="nav-list__item"><a href="ueber-uns.html" class="nav-list__link">Über uns</a></li>
+          <li class="nav-list__item"><a href="termine.html" class="nav-list__link">Termine</a></li>
+          <li class="nav-list__item"><a href="kontakt.html" class="nav-list__link">Kontakt</a></li>
+        </ul>
+        <a href="mitglied-werden.html" class="btn btn--primary btn--sm nav-cta">Mitglied werden</a>
+      </nav>
+      <button class="hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation" aria-hidden="true">
+    <ul class="mobile-nav__list" role="list">
+      <li><a href="index.html" class="mobile-nav__link">Startseite</a></li>
+      <li><a href="ueber-uns.html" class="mobile-nav__link">Über uns</a></li>
+      <li><a href="termine.html" class="mobile-nav__link">Termine</a></li>
+      <li><a href="kontakt.html" class="mobile-nav__link">Kontakt</a></li>
+    </ul>
+    <div class="mobile-nav__cta">
+      <a href="mitglied-werden.html" class="btn btn--primary">Mitglied werden</a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="hero hero--subpage" aria-labelledby="seitentitel">
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <span class="hero__label">Wir freuen uns auf Sie</span>
+        <h1 class="hero__title" id="seitentitel">Kontakt</h1>
+        <p class="hero__sub">Fragen zur Imkerei oder zur Mitgliedschaft? Schreiben Sie uns.</p>
+      </div>
+    </section>
+
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb" aria-label="Navigationspfad">
+      <div class="container">
+        <ol class="breadcrumb__list" role="list">
+          <li class="breadcrumb__item"><a href="index.html" class="breadcrumb__link">Startseite</a></li>
+          <li class="breadcrumb__item"><span class="breadcrumb__current">Kontakt</span></li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- KONTAKT LAYOUT -->
+    <section class="section" aria-labelledby="kontakt-heading">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- FORMULAR -->
+          <div>
+            <span class="section-label">Schreiben Sie uns</span>
+            <h2 class="section-title" id="kontakt-heading" style="margin-bottom: var(--space-8);">Kontaktformular</h2>
+
+            <div class="legal-content" style="padding: var(--space-8); margin-bottom: 0;">
+              <p style="font-size: var(--fs-sm); color: var(--color-text-muted); margin-bottom: var(--space-6);">
+                Füllen Sie das Formular aus – beim Absenden öffnet sich Ihr E-Mail-Programm
+                mit der fertigen Nachricht. Wir melden uns so schnell wie möglich bei Ihnen.
+                Pflichtfelder sind mit einem Sternchen (<span style="color: var(--color-honey-dark);">*</span>) gekennzeichnet.
+              </p>
+
+                <form id="contact-form" novalidate aria-label="Kontaktformular">
+
+                <!-- Name -->
+                <div class="form-group">
+                  <label class="form-label" for="contact-name">
+                    Name <span class="required" aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    class="form-input"
+                    id="contact-name"
+                    name="name"
+                    autocomplete="name"
+                    placeholder="Ihr vollständiger Name"
+                    required
+                    aria-required="true"
+                    aria-describedby="error-name"
+                  >
+                  <span class="form-error" id="error-name" role="alert"></span>
+                </div>
+
+                <!-- E-Mail -->
+                <div class="form-group">
+                  <label class="form-label" for="contact-email">
+                    E-Mail-Adresse <span class="required" aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    type="email"
+                    class="form-input"
+                    id="contact-email"
+                    name="email"
+                    autocomplete="email"
+                    placeholder="ihre@emailadresse.de"
+                    required
+                    aria-required="true"
+                    aria-describedby="error-email"
+                  >
+                  <span class="form-error" id="error-email" role="alert"></span>
+                </div>
+
+                <!-- Betreff (optional) -->
+                <div class="form-group">
+                  <label class="form-label" for="contact-betreff">Betreff</label>
+                  <input
+                    type="text"
+                    class="form-input"
+                    id="contact-betreff"
+                    name="betreff"
+                    placeholder="z. B. Frage zur Mitgliedschaft"
+                  >
+                </div>
+
+                <!-- Nachricht -->
+                <div class="form-group">
+                  <label class="form-label" for="contact-message">
+                    Nachricht <span class="required" aria-hidden="true">*</span>
+                  </label>
+                  <textarea
+                    class="form-textarea"
+                    id="contact-message"
+                    name="message"
+                    placeholder="Ihre Nachricht an den Imkerverein Herdecke-Ende..."
+                    required
+                    aria-required="true"
+                    aria-describedby="error-message"
+                  ></textarea>
+                  <span class="form-error" id="error-message" role="alert"></span>
+                </div>
+
+                <!-- Datenschutz -->
+                <div class="form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check__input"
+                    id="contact-datenschutz"
+                    name="datenschutz"
+                    required
+                    aria-required="true"
+                    aria-describedby="error-datenschutz"
+                  >
+                  <label class="form-check__label" for="contact-datenschutz">
+                    Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen
+                    und bin damit einverstanden, dass meine Angaben zur Bearbeitung meiner
+                    Anfrage gespeichert werden.
+                    <span class="required" aria-hidden="true">*</span>
+                  </label>
+                </div>
+                <span class="form-error" id="error-datenschutz" role="alert"></span>
+
+
+                <!-- Absenden -->
+                <button type="submit" class="btn btn--primary btn--lg" style="margin-top: var(--space-4);">
+                  Nachricht im E-Mail-Programm öffnen
+                </button>
+
+              </form>
+
+              <!-- Erfolgs-Meldung -->
+              <div
+                class="form-success"
+                id="form-success"
+                role="status"
+                aria-live="polite"
+                tabindex="-1"
+              >
+                <span aria-hidden="true">✅</span>
+                <span data-success-text>Vielen Dank für Ihre Nachricht! Wir werden uns so bald wie möglich bei Ihnen melden.</span>
+              </div>
+
+              <!-- Fehler-/Hinweismeldung beim Versand -->
+              <div class="form-send-error" id="form-error" role="alert" tabindex="-1" hidden></div>
+
+              <p class="form-hint" style="margin-top: var(--space-6);">
+                Alternativ können Sie uns auch direkt beim nächsten Imkertreff ansprechen –
+                jeden zweiten Dienstag im Monat, 19:00 Uhr, Sportlertreff Herdecke-Ende.
+              </p>
+            </div>
+          </div>
+
+          <!-- SIDEBAR: KONTAKTINFOS -->
+          <aside class="contact-info" aria-label="Kontaktinformationen">
+
+            <!-- Vereinsdaten -->
+            <div class="contact-info__box">
+              <h3 class="contact-info__title">Vereinsinformationen</h3>
+
+              <div class="contact-info__item">
+                <div class="contact-info__icon" aria-hidden="true">🏛️</div>
+                <div>
+                  <div class="contact-info__label">Vereinsname</div>
+                  <div class="contact-info__value">Imkerverein Herdecke-Ende e.V.</div>
+                </div>
+              </div>
+
+              <div class="contact-info__item">
+                <div class="contact-info__icon" aria-hidden="true">📍</div>
+                <div>
+                  <div class="contact-info__label">Treffpunkt</div>
+                  <address class="contact-info__value" style="font-style: normal;">
+                    Sportlertreff Herdecke-Ende<br>
+                    Kirchender Dorfweg 12<br>
+                    58313 Herdecke
+                  </address>
+                </div>
+              </div>
+
+              <div class="contact-info__item">
+                <div class="contact-info__icon" aria-hidden="true">📅</div>
+                <div>
+                  <div class="contact-info__label">Imkertreff</div>
+                  <div class="contact-info__value">
+                    Jeden zweiten Dienstag im Monat<br>
+                    19:00 Uhr
+                  </div>
+                </div>
+              </div>
+
+              <!-- Platzhalter Vorstand – wird vom Verein befüllt -->
+              <div class="contact-info__item">
+                <div class="contact-info__icon" aria-hidden="true">👤</div>
+                <div>
+                  <div class="contact-info__label">Vorstand</div>
+                  <div class="legal-placeholder" style="margin: 0;">
+                    <strong>[Vorstandsangaben eintragen]</strong><br>
+                    Name und Kontakt des 1. Vorsitzenden
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Karten-Platzhalter -->
+            <div class="contact-info__box">
+              <h3 class="contact-info__title">Anfahrt</h3>
+              <div class="map-placeholder" role="img" aria-label="Kartenplatzhalter – Sportlertreff Herdecke-Ende, Kirchender Dorfweg 12">
+                <span class="map-placeholder__icon" aria-hidden="true">🗺️</span>
+                <span class="map-placeholder__text">Sportlertreff Herdecke-Ende</span>
+                <span class="map-placeholder__addr">Kirchender Dorfweg 12<br>58313 Herdecke</span>
+              </div>
+              <p style="margin-top: var(--space-3);">
+                <a href="https://www.openstreetmap.org/search?query=Kirchender%20Dorfweg%2012%2C%2058313%20Herdecke" target="_blank" rel="noopener noreferrer" class="card__link">
+                  Auf der Karte anzeigen (OpenStreetMap) <span class="arrow" aria-hidden="true">→</span>
+                </a>
+              </p>
+              <p style="font-size: var(--fs-xs); color: var(--color-text-light); margin-top: var(--space-3);">
+                Zur Anfahrt empfehlen wir die Eingabe der Adresse
+                in ein Navigationssystem Ihrer Wahl.
+              </p>
+            </div>
+
+
+          </aside>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid footer-grid--kompakt">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-brand__logo" aria-label="Zur Startseite">
+            <span class="footer-brand__icon" aria-hidden="true">🐝</span>
+            <span>
+              <span class="footer-brand__name">Imkerverein Herdecke-Ende e.V.</span><br>
+              <span class="footer-brand__sub">Gegründet 22. August 1926</span>
+            </span>
+          </a>
+          <p class="footer-brand__desc">Bienen, Imkerei und Naturschutz in Herdecke und der Ennepe-Ruhr-Region.</p>
+        </div>
+        <div class="footer-col">
+          <h2 class="footer-col__title">Verein</h2>
+          <ul class="footer-col__list" role="list">
+            <li><a href="ueber-uns.html" class="footer-col__link">Über uns</a></li>
+            <li><a href="termine.html" class="footer-col__link">Termine</a></li>
+            <li><a href="mitglied-werden.html" class="footer-col__link">Mitglied werden</a></li>
+            <li><a href="kontakt.html" class="footer-col__link">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h2 class="footer-col__title">Imkertreff</h2>
+          <div class="footer-contact__item">
+            <span class="footer-contact__icon" aria-hidden="true">📅</span>
+            <span>Jeden 2. Dienstag im Monat, 19:00 Uhr</span>
+          </div>
+          <div class="footer-contact__item">
+            <span class="footer-contact__icon" aria-hidden="true">📍</span>
+            <address class="address-plain">
+              Sportlertreff Herdecke-Ende<br>
+              Kirchender Dorfweg 12<br>
+              58313 Herdecke
+            </address>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">&copy; 2026 Imkerverein Herdecke-Ende e.V.</p>
+        <nav class="footer-bottom__links" aria-label="Rechtliche Links">
+          <a href="impressum.html" class="footer-bottom__link">Impressum</a>
+          <a href="datenschutz.html" class="footer-bottom__link">Datenschutz</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>
