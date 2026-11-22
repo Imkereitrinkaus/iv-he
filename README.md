@@ -28,6 +28,7 @@ Auf GitHub: Datei öffnen → Stift-Symbol → ändern → **Commit changes**.
 |---|---|
 | `index.html` | Startseite mit den nächsten Terminen |
 | `ueber-uns.html` | Verein, Chronik, Verbände |
+| `aktuelles.html` | Aktuelle Hinweise (z. B. Asiatische Hornisse, Meldeadresse) |
 | `termine.html` | Imkertreff und alle Termine |
 | `mitglied-werden.html` | Vorteile, Ablauf, Mitgliedsantrag |
 | `kontakt.html` | Kontaktformular (öffnet das E-Mail-Programm – kein Spam möglich) |

@@ -127,6 +127,20 @@
   markActive(mobileLinks);
 
   /* ----------------------------------------------------------------
+     E-MAIL-LINKS (Spam-Schutz)
+     Die Adresse steht nicht als Ganzes im HTML, sondern wird erst hier
+     zusammengesetzt: <a data-email-user="name" data-email-domain="iv-he.de">
+  ---------------------------------------------------------------- */
+  document.querySelectorAll('[data-email-user][data-email-domain]').forEach((link) => {
+    const address = link.dataset.emailUser + '@' + link.dataset.emailDomain;
+    const params = [];
+    if (link.dataset.emailSubject) params.push('subject=' + encodeURIComponent(link.dataset.emailSubject));
+    if (link.dataset.emailBody) params.push('body=' + encodeURIComponent(link.dataset.emailBody));
+    link.href = 'mailto:' + address + (params.length ? '?' + params.join('&') : '');
+    link.textContent = address;
+  });
+
+  /* ----------------------------------------------------------------
      4. BILD-FALLBACK
      Fehlt eine Bilddatei, wird statt des „kaputten Bildes“ ein
      Platzhalter angezeigt. Sobald die Datei im Ordner images/ liegt,

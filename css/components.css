@@ -1650,3 +1650,122 @@
 .verband-box + .verband-box {
   margin-top: var(--space-5);
 }
+
+/* ================================================================
+   AKTUELLES
+   ================================================================ */
+
+/* Hinweis-Leiste auf der Startseite */
+.aktuell-banner {
+  background-color: var(--color-cream-mid);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.aktuell-banner__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) 0;
+  color: var(--color-text-dark);
+  text-decoration: none;
+}
+
+.aktuell-banner__link:hover .aktuell-banner__text {
+  text-decoration: underline;
+}
+
+.aktuell-banner__badge {
+  flex-shrink: 0;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-full);
+  background-color: var(--color-honey);
+  font-family: var(--font-display);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.aktuell-banner__text {
+  flex: 1;
+}
+
+/* Melde-Box */
+.melde-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+  margin: var(--space-10) 0;
+  padding: var(--space-8);
+  border-radius: var(--radius-xl);
+  background:
+    radial-gradient(circle at 90% 10%, rgba(242, 169, 0, 0.30), transparent 50%),
+    linear-gradient(135deg, var(--color-green-dark), var(--color-green));
+  color: var(--color-white);
+}
+
+.melde-box__title {
+  color: var(--color-white);
+  font-size: var(--fs-xl);
+  margin-bottom: var(--space-2);
+}
+
+.melde-box__text {
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+}
+
+.melde-box .btn {
+  word-break: break-all;
+}
+
+.artikel-zwischentitel {
+  font-size: var(--fs-xl);
+  margin: var(--space-10) 0 var(--space-5);
+}
+
+.artikel-hinweis {
+  margin-top: var(--space-5);
+  color: var(--color-text-muted);
+}
+
+/* Vergleichstabelle */
+.tabelle-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.vergleich {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-sm);
+  background-color: var(--color-white);
+}
+
+.vergleich th,
+.vergleich td {
+  padding: var(--space-3) var(--space-4);
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.vergleich thead th {
+  background-color: var(--color-cream-warm);
+  font-family: var(--font-display);
+  color: var(--color-text-dark);
+}
+
+.vergleich tbody th {
+  font-weight: 600;
+  color: var(--color-text-dark);
+  white-space: nowrap;
+}
+
+.vergleich tr:last-child th,
+.vergleich tr:last-child td {
+  border-bottom: none;
+}
