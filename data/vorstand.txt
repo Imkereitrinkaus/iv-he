@@ -25,31 +25,41 @@
 
 
 Amt: 1. Vorsitzender
-Name:
+Name: Michael Becker
 E-Mail:
 Telefon:
 
 Amt: 2. Vorsitzende
-Name:
+Name: Sabine Busch
 E-Mail:
 Telefon:
 
 Amt: 1. Kassiererin
-Name:
+Name: Annika Beckmann
 E-Mail:
 Telefon:
 
 Amt: 2. Kassierer
-Name:
+Name: Björn Trinkaus
+E-Mail:
+Telefon:
+
+Amt: Schriftführerin
+Name: Catharina Beckmann
 E-Mail:
 Telefon:
 
 Amt: Öffentlichkeitsarbeit
-Name:
+Name: Lars Teeke
 E-Mail:
 Telefon:
 
 Amt: Obmann für Honig
-Name:
+Name: Alexander Müller
+E-Mail:
+Telefon:
+
+Amt: Obfrau für Bienengesundheit
+Name: Sabine Busch
 E-Mail:
 Telefon:
